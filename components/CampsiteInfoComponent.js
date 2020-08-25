@@ -62,7 +62,7 @@ function RenderCampsite(props) {
                     ],
                     { cancelable: false }
                 );
-            }else if (recognizeComment(gestureState)){
+            } else if (recognizeComment(gestureState)) {
                 props.onShowModal()
             }
             return true;
@@ -104,6 +104,7 @@ function RenderCampsite(props) {
                             onPress={() => props.onShowModal()}
                             style={styles.cardItem}
                         />
+
                     </View>
                 </Card>
             </Animatable.View>
